@@ -3,7 +3,7 @@ import styles from "./QuickField.module.css";
 import QuickList from "../quickList/quickList";
 import { Link } from "react-router-dom";
 
-export const QuickField = () => {
+const QuickField = () => {
   return (
     <div className={`${styles["quick-meal"]} text-center`}>
       <div className={styles["wrapper"]}>
@@ -24,3 +24,5 @@ export const QuickField = () => {
     </div>
   );
 };
+
+export default QuickField;
