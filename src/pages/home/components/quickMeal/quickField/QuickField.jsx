@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./QuickField.module.css";
-import QuickList from "../quickList/quickList";
+import QuickList from "../quickList/QuickList";
 import { Link } from "react-router-dom";
 
 const QuickField = () => {

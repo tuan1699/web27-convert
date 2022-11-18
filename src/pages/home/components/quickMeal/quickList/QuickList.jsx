@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import QuickItem from "../quickItem/quickItem";
+import QuickItem from "../quickItem/QuickItem";
 import styles from "./QuickList.module.css";
 
 const QuickList = () => {
