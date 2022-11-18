@@ -1,0 +1,56 @@
+:root {
+  --primary-color: #333;
+  --active-color: #c9590f;
+  --sub-color: rgb(151, 148, 148);
+  --primary-bg: #d8d8d8;
+  --unactive-color: #d8d8d8;
+  --sub-bg: #3c3b3d;
+  --font-sub: "'Lora', serif;";
+  --font-main: "'Fira Sans', sans-serif";
+  --fs-post-title: 24px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+*,
+p,
+h1,
+h2,
+h3 {
+  padding: 0;
+
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+p,
+a,
+h1,
+h2,
+h3,
+h5,
+h6,
+div {
+  font-family: "Fira Sans", sans-serif;
+}
+
+ul,
+li {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+a:hover {
+  color: var(--active-color);
+}
+
+img {
+  width: 100%;
+}
+

@@ -1,0 +1,22 @@
+.wrapper {
+  padding: 0 20px;
+  min-height: 68px;
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+    padding: 0;
+    /* padding: 0 120px; */
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+    /* padding: 0 120px; */
+  }
+}

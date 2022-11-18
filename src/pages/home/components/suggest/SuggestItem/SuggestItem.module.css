@@ -1,0 +1,19 @@
+.suggest-link:hover .suggest-item-thumb img {
+  transform: scale(1.2);
+  transition: 0.5s ease;
+}
+
+.suggest-link:hover .suggest-item-thumb {
+  transform: scale(1.1) rotate(4deg);
+  transition: 0.5s ease;
+}
+
+.suggest-item-thumb {
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.suggest-item-name {
+  margin-top: 20px;
+  font-size: 20px;
+}

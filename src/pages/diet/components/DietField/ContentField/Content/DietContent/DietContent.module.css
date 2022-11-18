@@ -1,0 +1,65 @@
+.diet-heading {
+  margin-bottom: 20px;
+}
+
+.diet-suggest,
+.diet-popular,
+.diet-community {
+  margin-bottom: 40px;
+}
+
+.diet-popular-item:hover img {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.diet-thumb {
+  overflow: hidden;
+}
+
+.diet-popular-item {
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 24px;
+}
+
+.diet-suggest-item,
+.diet-community-item {
+  height: 200px;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.diet-community-title,
+.diet-suggest-title {
+  position: relative;
+  top: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 200px;
+  text-align: center;
+}
+
+.diet-popular-title {
+  bottom: 20px;
+  left: 20px;
+  background-color: var(--active-color);
+  border-radius: 15px;
+  padding: 4px 10px;
+  color: #fff;
+}
+
+.diet-suggest-item:hover .diet-suggest-title {
+  top: 0px;
+  cursor: pointer;
+}
+
+.diet-community-item:hover .diet-community-title {
+  top: 0px;
+  cursor: pointer;
+}

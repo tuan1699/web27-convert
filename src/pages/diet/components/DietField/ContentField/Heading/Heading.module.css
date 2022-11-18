@@ -1,0 +1,16 @@
+.heading {
+  margin: 40px 0 40px 0;
+}
+
+.decr-page {
+  font-size: 14px;
+}
+
+.title {
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+}
