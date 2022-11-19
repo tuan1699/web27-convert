@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { recipesList } from "../../../../db";
 import styles from "./RecipesField.module.css";
 import RecipesList from "./RecipesList";
 
@@ -25,11 +26,44 @@ const RecipesField = () => {
           <div className="col-12 d-none d-lg-block col-lg-3">
             <div className="row">
               <div className="col-12">
-                <div className="heading-popular">NHIỀU NGƯỜI THỰC HIỆN</div>
+                <div className={styles["heading-popular"]}>
+                  NHIỀU NGƯỜI THỰC HIỆN
+                </div>
               </div>
               <div className="col-12">
-                <div className="recipes-popular position-relative border-item">
-                  <template id="popular-template" />
+                <div
+                  className={`${styles["recipes-popular"]} position-relative ${styles["border-item"]}`}
+                >
+                  {recipesList.slice(0, 5).map((recipes, index) => {
+                    return (
+                      <Link
+                        to={"/recipes/" + recipes.id}
+                        className={styles["popular-link"]}
+                      >
+                        <div
+                          className={`${styles["recipes-popular-item"]} position-relative d-flex align-items-center`}
+                        >
+                          <div
+                            className={styles["popular-thumb"]}
+                            style={{ backgroundImage: `url(${recipes.thumb})` }}
+                          />
+                          <div className={styles["recipes-popular-number"]}>
+                            {index}
+                          </div>
+                          <div
+                            className={`${styles["recipes-popular-decr"]} text-start`}
+                          >
+                            <div className={styles["recipes-popular-name"]}>
+                              {recipes.name}
+                            </div>
+                            <p className={styles["recipes-popular-by"]}>
+                              {recipes.date}
+                            </p>
+                          </div>
+                        </div>
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
             </div>
