@@ -41,16 +41,27 @@ const Header = () => {
         </div>
 
         <div className="header-feature d-flex align-items-center">
-          <div
-            className={`user-btn text-light me-3 fs-4 ${styles["header-feature-item"]}`}
-          >
-            <i className="bi bi-person-circle" />
-          </div>
+          <Link to="/user">
+            <div
+              className={`${styles["user-btn"]} text-light me-3 fs-4 ${styles["header-feature-item"]}`}
+            >
+              <i className="bi bi-person-circle" />
+            </div>
+          </Link>
+
           <div
             className={`text-light search-btn me-3 fs-4 ${styles["header-feature-item"]}`}
           >
             <i className="bi bi-search" />
           </div>
+
+          <Link to="/cart">
+            <div
+              className={`${styles["header-feature-item"]} d-none d-md-block text-light cart me-3 fs-4`}
+            >
+              <i className="bi bi-cart2 " />
+            </div>
+          </Link>
         </div>
       </div>
     </header>

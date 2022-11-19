@@ -1,0 +1,201 @@
+.wrapper {
+  padding: 0 20px;
+}
+
+.text-active {
+  color: var(--active-color);
+}
+
+.empty-cart {
+  width: 40%;
+  margin: auto;
+}
+
+.breadcumb {
+  margin: 119px 0 0 0;
+}
+
+.check-out-field input,
+textarea {
+  width: 100%;
+  padding: 4px 0 4px 20px;
+}
+
+.check-out-field {
+  margin-bottom: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+.pay-method input {
+  width: auto;
+}
+
+.info-user-field {
+  margin-bottom: 24px;
+}
+
+.course-item {
+  padding: 30px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.course-info {
+  width: 240px;
+}
+
+.cart-quantity {
+  width: 60px;
+  padding-left: 20px;
+}
+
+.list-check-out {
+  padding-bottom: 40px;
+  border-bottom: 1px solid#333;
+}
+
+.btn-pay {
+  border: none;
+  width: 100%;
+  padding: 8px 0;
+  background-color: var(--active-color);
+  color: #fff;
+}
+
+.check-out-field {
+  margin-top: 40px;
+}
+
+.title-info {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.list-heading {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.item-checkout {
+  margin-bottom: 20px;
+}
+
+.summary {
+  margin: 30px 0;
+}
+
+.delete-course:hover {
+  color: var(--active-color);
+  transform: scale(1.4);
+  transition: 0.2s ease;
+
+  cursor: pointer;
+}
+
+/*  CONTACT */
+.contact-footer {
+  position: relative;
+  background-size: cover;
+  min-height: 500px;
+  animation: animationBt ease-in-out 10s;
+  animation-iteration-count: infinite;
+}
+
+.contact-form {
+  width: 80%;
+  max-width: 600px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 30px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 18px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  color: var(--active-color);
+}
+
+.contact-input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.customer-info {
+  margin-bottom: 40px;
+}
+
+.check-out {
+  margin-bottom: 40px;
+}
+
+.pay-method span {
+  font-weight: 600;
+}
+
+.pay-method-item {
+  padding: 16px 0;
+}
+
+.method-decr {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 16px;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.method-decr.active {
+  height: 200px;
+  transition: height 0.5s;
+}
+
+@media (min-width: 576px) {
+  .cart-container {
+    padding: 80px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+    padding: 0;
+  }
+
+  .contact-form {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 120px;
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+  }
+}

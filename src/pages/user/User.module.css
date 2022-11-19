@@ -1,0 +1,303 @@
+.text-active {
+  color: var(--active-color);
+}
+
+.body {
+  margin-top: 40px;
+}
+
+.breadcumb {
+  margin: 120px 0 0 0;
+}
+
+.user-nav-item {
+  padding: 8px 0px;
+  color: #000;
+}
+
+.user-nav-item:hover {
+  background-color: var(--sub-bg);
+  cursor: pointer;
+  border-radius: 15px;
+  color: #fff;
+}
+.user-content-item {
+  min-height: 100vh;
+}
+.user-content-item.active {
+  display: block;
+}
+
+/*  */
+
+.user-nav-item.active {
+  background-color: var(--sub-bg);
+  color: #fff;
+  border-radius: 15px;
+}
+
+.user-nav {
+  background-color: #ccc;
+  border-radius: 15px;
+}
+
+.user-content {
+  margin-top: 40px;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.user-info input {
+  width: 60%;
+  padding: 2px 16px;
+}
+
+.change-password {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 15px;
+}
+
+.change-password:hover {
+  background-color: var(--active-color);
+  color: #fff;
+}
+
+.info-title {
+  text-align: right;
+}
+
+.update,
+.cancel {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 15px;
+}
+
+.update:hover {
+  background-color: #0668ae;
+  color: #fff;
+}
+
+.cancel:hover {
+  background-color: #ec4e40;
+  color: #fff;
+}
+
+/* RECIPES FIELD */
+
+.recipes-field > div {
+  margin-bottom: 24px;
+}
+
+.recipes-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipes-item:hover .recipes-item-thumb img {
+  transform: scale(1.3);
+  transition: 0.5s ease;
+}
+
+.recipes-item-thumb {
+  overflow: hidden;
+}
+
+.recipes-list {
+  padding-bottom: 40px;
+}
+
+.recipes-item-decr {
+  padding: 10px 10px 20px 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipes-item-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.recipes-item-bonus {
+  padding: 10px 0;
+}
+
+.duration-icon {
+  margin-left: 8px;
+}
+
+.item-info {
+  color: var(--sub-bg);
+  padding-top: 8px;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.item-by::after {
+  position: relative;
+  top: 4px;
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 20px;
+  margin: 0 16px;
+  background-color: var(--sub-color);
+}
+
+.share {
+  margin-left: 10px;
+}
+
+.border-item {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.recipes-item:hover .removeRecipes-btn {
+  display: block;
+  color: var(--active-color);
+}
+
+/* BLOG FIELD */
+.blog-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.blog-info {
+  color: var(--sub-bg);
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.blog-by::after {
+  position: relative;
+  top: 4px;
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 20px;
+  margin: 0 20px;
+  background-color: var(--sub-color);
+}
+
+.blog-item {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.removeRecipes-btn,
+.remove-btn {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.removeRecipes-btn:hover,
+.remove-btn:hover {
+  transform: scale(1.3);
+  transition: 0.2s ease;
+}
+
+.blog-item:hover .remove-btn {
+  display: block;
+  color: var(--active-color);
+}
+
+.blog-link:hover .blog-thumb img {
+  transform: scale(1.3);
+  transition: 0.5s ease;
+}
+
+.blog-name:hover {
+  color: var(--active-color);
+}
+
+.blog-thumb {
+  overflow: hidden;
+}
+
+/* COURSE-FIELD */
+.course-name {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.course-price {
+  margin-bottom: 20px;
+}
+
+.course-item:hover .course-thumb img {
+  transform: scale(1.3);
+  transition: 0.5s ease;
+}
+
+.course-thumb {
+  overflow: hidden;
+}
+.payed {
+  padding: 4px 16px;
+  color: #fff;
+  background-color: #0668ae;
+}
+
+@media (min-width: 576px) {
+  .user-container {
+    padding: 80px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .user-nav-item {
+    padding: 8px 40px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .user-content-item {
+    padding: 0 80px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+    padding: 0;
+  }
+
+  .user-nav-item {
+    padding: 8px 100px;
+  }
+
+  .contact-form {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 120px;
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+  }
+}

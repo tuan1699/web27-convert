@@ -17,6 +17,8 @@ import Diet from "./pages/diet/Diet";
 import Recipes from "./pages/recipes/Recipes";
 import Blog from "./pages/blog/Blog";
 import Course from "./pages/course/Course";
+import Cart from "./pages/cart/Cart";
+import User from "./pages/user/User";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -44,6 +46,18 @@ const router = createBrowserRouter(
       <Route
         path="/course"
         element={<Course />}
+        errorElement={<div>Có gì đó không ổn!</div>}
+      />
+
+      <Route
+        path="/cart"
+        element={<Cart />}
+        errorElement={<div>Có gì đó không ổn!</div>}
+      />
+
+      <Route
+        path="/user"
+        element={<User />}
         errorElement={<div>Có gì đó không ổn!</div>}
       />
     </Route>
