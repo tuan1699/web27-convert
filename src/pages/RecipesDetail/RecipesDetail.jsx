@@ -195,7 +195,7 @@ const RecipesDetail = () => {
                     <div className={styles["step-number"]}>Bước 1:</div>
                     <div className={styles["wrapper-step"]}>
                       <div className={styles["step-thumb"]}>
-                        <img src="./img/post/com-rang/step-1.png" alt="" />
+                        <img src="/img/post/com-rang/step-1.png" alt="" />
                       </div>
                       <div className={styles["step-decr"]}>
                         Dứa chọn quả chín vừa vàng đều đẹp không dập hỏng. Rửa
@@ -279,7 +279,9 @@ const RecipesDetail = () => {
               </div>
             </div>
           </div>
-          <div className="d-none d-lg-block col-lg-3">
+          <div
+            className={`d-none d-lg-block col-lg-3 ${styles["side-bar-content"]}`}
+          >
             <SideBar className={styles["side-bar-content"]} />
           </div>
         </div>

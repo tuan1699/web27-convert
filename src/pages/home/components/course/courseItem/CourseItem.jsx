@@ -5,7 +5,7 @@ import styles from "./Courseitem.module.css";
 const CourseItem = ({ course }) => {
   return (
     <div className="col-6 col-sm-6 col-md-4 col-lg-3">
-      <Link to="./course" className={styles["course-link"]}>
+      <Link to={"./course/" + course.id} className={styles["course-link"]}>
         <div className={`${styles["course-item"]} ${styles["border-item"]}`}>
           <div className={styles["course-thumb"]}>
             <img src={course.thumb} alt="" />

@@ -2,6 +2,10 @@
   color: var(--active-color);
 }
 
+.side-bar-content {
+  margin-top: 180px;
+}
+
 .heading-post {
   margin-bottom: 40px;
 }
@@ -106,9 +110,6 @@
   color: rgb(239, 188, 112);
 }
 
-.side-bar-content {
-  margin-top: 180px;
-}
 /* Small devices (tablets, 576px and up) */
 @media (min-width: 576px) {
 }
