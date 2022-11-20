@@ -1,0 +1,134 @@
+.text-active {
+  color: var(--active-color);
+}
+
+.heading-post {
+  margin-bottom: 40px;
+}
+
+.decr-post {
+  padding: 30px 0;
+  border-bottom: 1px solid var(--sub-color);
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.ingredients-item {
+  margin-bottom: 20px;
+}
+
+.have-ingredients {
+  margin-right: 20px;
+}
+
+.ingredients-quantity {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.sub-ingredient {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.step {
+  margin-bottom: 30px;
+}
+
+.step-number {
+  margin-bottom: 20px;
+}
+
+.step-number {
+  font-weight: 600;
+}
+
+/* .wrapper-step {
+    padding: 0 60px;
+  } */
+
+.step-decr {
+  font-style: italic;
+  text-align: center;
+}
+
+/* .step-thumb img {
+    width: 50%;
+  } */
+
+.amount-field {
+  font-size: 14px;
+}
+
+#amount {
+  padding: 8px 16px;
+  border: none;
+  margin-left: 16px;
+  background-color: rgb(237, 236, 236);
+}
+
+.recipes-name {
+  font-size: 24px;
+}
+
+.author-post,
+.method-post,
+.cuisine-post,
+.tags-post {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.format-icon i {
+  font-size: 28px;
+}
+
+.format-icon {
+  margin-right: 12px;
+}
+
+.format-icon img {
+  width: 30px;
+}
+
+.format-value {
+  font-weight: 600;
+  color: rgb(239, 188, 112);
+}
+
+.side-bar-content {
+  margin-top: 180px;
+}
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .wrapper {
+    width: 1200px;
+    margin: auto;
+  }
+}

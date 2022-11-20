@@ -37,6 +37,7 @@ const RecipesField = () => {
                   {recipesList.slice(0, 5).map((recipes, index) => {
                     return (
                       <Link
+                        key={index}
                         to={"/recipes/" + recipes.id}
                         className={styles["popular-link"]}
                       >
