@@ -9,7 +9,7 @@ const Layout = () => {
     <>
       <Header />
 
-      <main style={{ margin: "88px 0 0 0" }}>
+      <main>
         <Outlet />
       </main>
 

@@ -29,7 +29,7 @@ const RecipesDetail = () => {
                       <div className={styles["recipes-post-info"]}>
                         <div className={styles["author-post"]}>
                           <span className={styles["format-icon"]}>
-                            <img src="./img/icon/user.svg" alt="" />
+                            <img src="/img/icon/user.svg" alt="" />
                           </span>
                           <span>
                             Tác giả:
@@ -40,7 +40,7 @@ const RecipesDetail = () => {
                         </div>
                         <div className={styles["method-post"]}>
                           <span className={styles["format-icon"]}>
-                            <img src="./img/icon/long-ban.svg" alt="" />
+                            <img src="/img/icon/long-ban.svg" alt="" />
                           </span>
                           <span>
                             Loại:{" "}
@@ -51,7 +51,7 @@ const RecipesDetail = () => {
                         </div>
                         <div className={styles["cuisine-post"]}>
                           <span className={styles["format-icon"]}>
-                            <img src="./img/icon/nguyen-lieu.svg" alt="" />
+                            <img src="/img/icon/nguyen-lieu.svg" alt="" />
                           </span>
                           <span>
                             Nguyên liệu chính:
@@ -207,7 +207,7 @@ const RecipesDetail = () => {
                     <div className={styles["step-number"]}>Bước 2:</div>
                     <div className={styles["wrapper-step"]}>
                       <div className={styles["step-thumb"]}>
-                        <img src="./img/post/com-rang/step-2.png" alt="" />
+                        <img src="/img/post/com-rang/step-2.png" alt="" />
                       </div>
                       <div className={styles["step-decr"]}>
                         Dứa chọn quả chín vừa vàng đều đẹp không dập hỏng. Rửa
@@ -219,7 +219,7 @@ const RecipesDetail = () => {
                     <div className={styles["step-number"]}>Bước 3:</div>
                     <div className={styles["wrapper-step"]}>
                       <div className={styles["step-thumb"]}>
-                        <img src="./img/post/com-rang/step-3.png" alt="" />
+                        <img src="/img/post/com-rang/step-3.png" alt="" />
                       </div>
                       <div className={styles["step-decr"]}>
                         Dứa chọn quả chín vừa vàng đều đẹp không dập hỏng. Rửa
@@ -231,7 +231,7 @@ const RecipesDetail = () => {
                     <div className={styles["step-number"]}>Bước 4:</div>
                     <div className={styles["wrapper-step"]}>
                       <div className={styles["step-thumb"]}>
-                        <img src="./img/post/com-rang/step-4.png" alt="" />
+                        <img src="/img/post/com-rang/step-4.png" alt="" />
                       </div>
                       <div className={styles["step-decr"]}>
                         Dứa chọn quả chín vừa vàng đều đẹp không dập hỏng. Rửa
@@ -243,7 +243,7 @@ const RecipesDetail = () => {
                     <div className={styles["step-number"]}>Bước 5:</div>
                     <div className={styles["wrapper-step"]}>
                       <div className={styles["step-thumb"]}>
-                        <img src="./img/post/com-rang/step-5.png" alt="" />
+                        <img src="/img/post/com-rang/step-5.png" alt="" />
                       </div>
                       <div className={styles["step-decr"]}>
                         Dứa chọn quả chín vừa vàng đều đẹp không dập hỏng. Rửa
@@ -255,7 +255,7 @@ const RecipesDetail = () => {
                     <div className={styles["step-number"]}>Bước 6:</div>
                     <div className={styles["wrapper-step"]}>
                       <div className={styles["step-thumb"]}>
-                        <img src="./img/post/com-rang/step-6.png" alt="" />
+                        <img src="/img/post/com-rang/step-6.png" alt="" />
                       </div>
                       <div className={styles["step-decr"]}>
                         Dứa chọn quả chín vừa vàng đều đẹp không dập hỏng. Rửa
@@ -267,7 +267,7 @@ const RecipesDetail = () => {
                     <div className={styles["step-number"]}>Bước 7:</div>
                     <div className={styles["wrapper-step"]}>
                       <div className={styles["step-thumb"]}>
-                        <img src="./img/post/com-rang/step-7.png" alt="" />
+                        <img src="/img/post/com-rang/step-7.png" alt="" />
                       </div>
                       <div className={styles["step-decr"]}>
                         Dứa chọn quả chín vừa vàng đều đẹp không dập hỏng. Rửa
@@ -280,7 +280,7 @@ const RecipesDetail = () => {
             </div>
           </div>
           <div className="d-none d-lg-block col-lg-3">
-            <SideBar />
+            <SideBar className={styles["side-bar-content"]} />
           </div>
         </div>
       </div>

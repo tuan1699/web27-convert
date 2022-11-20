@@ -2,7 +2,7 @@ export const recipesList = [
   {
     id: 1,
     name: "CÁCH LÀM GÀ ĂN MÀY CAO SANG QUYỀN QUÝ",
-    thumb: "./img/recipes/ga-an-may.png",
+    thumb: "/img/recipes/ga-an-may.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -18,7 +18,7 @@ export const recipesList = [
   {
     id: 2,
     name: "HÀU NƯỚNG PHOMAI NGON NHẤT THẾ GIỚI",
-    thumb: "./img/recipes/hau-nuong.png",
+    thumb: "/img/recipes/hau-nuong.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -33,7 +33,7 @@ export const recipesList = [
   {
     id: 3,
     name: "XÔI GÀ",
-    thumb: "./img/recipes/xoi-ga.png",
+    thumb: "/img/recipes/xoi-ga.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -49,7 +49,7 @@ export const recipesList = [
   {
     id: 4,
     name: "CÁCH LỌC XƯƠNG GÀ LUỘC CỰC DỄ",
-    thumb: "./img/recipes/ga-luoc.png",
+    thumb: "/img/recipes/ga-luoc.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -65,7 +65,7 @@ export const recipesList = [
   {
     id: 5,
     name: "CÁCH MUỐI CÁ HỒI RUBY SIÊU TO KHỔNG LỒ",
-    thumb: "./img/recipes/ca-hoi.png",
+    thumb: "/img/recipes/ca-hoi.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -81,7 +81,7 @@ export const recipesList = [
   {
     id: 6,
     name: "CÁ TRẮM KHO MĂNG CAY BẰNG NỒI ÁP SUẤT",
-    thumb: "./img/recipes/ca-tram.png",
+    thumb: "/img/recipes/ca-tram.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -97,7 +97,7 @@ export const recipesList = [
   {
     id: 7,
     name: "CÁ VƯỢC OM XỐT YOSENABE KIỂU NHẬT",
-    thumb: "./img/recipes/ca-vuoc.png",
+    thumb: "/img/recipes/ca-vuoc.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -113,7 +113,7 @@ export const recipesList = [
   {
     id: 8,
     name: "THỊT KHÂU NHỤC KIỂU QUẢNG ĐÔNG",
-    thumb: "./img/recipes/khau-nhuc.png",
+    thumb: "/img/recipes/khau-nhuc.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -128,7 +128,7 @@ export const recipesList = [
   {
     id: 9,
     name: "CÁCH LÀM GÀ NƯỚNG CAY XÈ PIRI PIRI",
-    thumb: "./img/recipes/ga-nuong.png",
+    thumb: "/img/recipes/ga-nuong.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -143,7 +143,7 @@ export const recipesList = [
   {
     id: 10,
     name: "MẸO CHIÊN CÁ GIÒN TAN Bằng NCKD",
-    thumb: "./img/recipes/ca-chien.png",
+    thumb: "/img/recipes/ca-chien.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -158,7 +158,7 @@ export const recipesList = [
   {
     id: 11,
     name: "TỰ LÀM THỊT QUAY GIÒN BÌ",
-    thumb: "./img/recipes/thit-quay.png",
+    thumb: "/img/recipes/thit-quay.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -173,7 +173,7 @@ export const recipesList = [
   {
     id: 12,
     name: "BÁNH MỲ TRỨNG ỐP LA",
-    thumb: "./img/recipes/thit-quay.png",
+    thumb: "/img/recipes/thit-quay.png",
     auth: "Hà Vy",
     day: "13",
     month: "March",
@@ -188,7 +188,7 @@ export const recipesList = [
   {
     id: 13,
     name: "THỊT BÒ SỐT TIÊU ĐEN",
-    thumb: "./img/recipes/bo-sot-tieu.png",
+    thumb: "/img/recipes/bo-sot-tieu.png",
     auth: "Vinh Trần",
     day: "15",
     month: "August",
@@ -203,7 +203,7 @@ export const recipesList = [
   {
     id: 14,
     name: "BÁNH MỲ NƯỚNG BƠ TỎI",
-    thumb: "./img/recipes/banh-my-nuong-bo-toi.png",
+    thumb: "/img/recipes/banh-my-nuong-bo-toi.png",
     auth: "Hà Đặng",
     day: "18",
     month: "Jul",
@@ -218,7 +218,7 @@ export const recipesList = [
   {
     id: 15,
     name: "MỲ XÀO RAU CỦ",
-    thumb: "./img/recipes/my-xao-rau-cu.png",
+    thumb: "/img/recipes/my-xao-rau-cu.png",
     auth: "Dương Thái",
     day: "10",
     month: "July",
@@ -233,7 +233,7 @@ export const recipesList = [
   {
     id: 16,
     name: "BÁNH MỲ SANWICH",
-    thumb: "./img/recipes/sanwich.png",
+    thumb: "/img/recipes/sanwich.png",
     auth: "Khánh Trần",
     day: "18",
     month: "September",
@@ -248,7 +248,7 @@ export const recipesList = [
   {
     id: 17,
     name: "CƠM CHIÊN THẬP CẨM",
-    thumb: "./img/recipes/com-chien.png",
+    thumb: "/img/recipes/com-chien.png",
     auth: "Tuấn Đặng",
     day: "16",
     month: "December",
@@ -263,7 +263,7 @@ export const recipesList = [
   {
     id: 18,
     name: "BÁNH MỲ TRỨNG ỐP LA",
-    thumb: "./img/recipes/banh-my-trung.png",
+    thumb: "/img/recipes/banh-my-trung.png",
     auth: "Hà Trần",
     day: "19",
     month: "Febuary",
@@ -278,7 +278,7 @@ export const recipesList = [
   {
     id: 19,
     name: "BÁNH MỲ KAYA TOAST",
-    thumb: "./img/recipes/banh-brazil.png",
+    thumb: "/img/recipes/banh-brazil.png",
     auth: "Ngọc Hân",
     day: "22",
     month: "March",
@@ -293,7 +293,7 @@ export const recipesList = [
   {
     id: 20,
     name: "NGŨ CỐC CÁC LOẠI",
-    thumb: "./img/recipes/ngu-coc.png",
+    thumb: "/img/recipes/ngu-coc.png",
     auth: "Tú Trần",
     day: "01",
     month: "March",
@@ -308,7 +308,7 @@ export const recipesList = [
   {
     id: 21,
     name: "GỎI CỦ HŨ DỪA",
-    thumb: "./img/recipes/cu-hu-dua.png",
+    thumb: "/img/recipes/cu-hu-dua.png",
     auth: "Khánh Đặng",
     day: "21",
     month: "July",
@@ -323,7 +323,7 @@ export const recipesList = [
   {
     id: 22,
     name: "GỎI NGÓ SEN TÔM THỊT",
-    thumb: "./img/recipes/goi-ngo-sen-tom-thit.png",
+    thumb: "/img/recipes/goi-ngo-sen-tom-thit.png",
     auth: "Huệ Đặng",
     day: "25",
     month: "July",
@@ -338,7 +338,7 @@ export const recipesList = [
   {
     id: 23,
     name: "GỎI HOA CHUỐI",
-    thumb: "./img/recipes/goi-hoa-chuoi.png",
+    thumb: "/img/recipes/goi-hoa-chuoi.png",
     auth: "Huệ Hồng",
     day: "25",
     month: "August",
@@ -353,7 +353,7 @@ export const recipesList = [
   {
     id: 24,
     name: "GỎI BÒ MÈ BÓP THẤU",
-    thumb: "./img/recipes/bo-me-bop-thau.png",
+    thumb: "/img/recipes/bo-me-bop-thau.png",
     auth: "Diệp Anh",
     day: "18",
     month: "August",
@@ -368,7 +368,7 @@ export const recipesList = [
   {
     id: 25,
     name: "BÁNH TRÁNG CUỘN",
-    thumb: "./img/recipes/thit-nguoi.png",
+    thumb: "/img/recipes/thit-nguoi.png",
     auth: "Lan Anh",
     day: "05",
     month: "Jul",
@@ -383,7 +383,7 @@ export const recipesList = [
   {
     id: 26,
     name: "CÀNG CUA BÁCH HOA",
-    thumb: "./img/recipes/cang-cua-bach-hoa.png",
+    thumb: "/img/recipes/cang-cua-bach-hoa.png",
     auth: "Giang Trần",
     day: "17",
     month: "Jul",
@@ -398,7 +398,7 @@ export const recipesList = [
   {
     id: 27,
     name: "TRÀ SỮA BÍ ĐAO",
-    thumb: "./img/recipes/tra-bi-dao.png",
+    thumb: "/img/recipes/tra-bi-dao.png",
     auth: "Huệ Anh",
     day: "17",
     month: "October",
@@ -413,7 +413,7 @@ export const recipesList = [
   {
     id: 28,
     name: "HẠT ĐÁC RIM DỨA & CHANH LEO",
-    thumb: "./img/recipes/hat-dac.png",
+    thumb: "/img/recipes/hat-dac.png",
     auth: "Loan Phạm",
     day: "21",
     month: "October",
@@ -428,7 +428,7 @@ export const recipesList = [
   {
     id: 29,
     name: "CÁCH LÀM KOMBUCHA ĐÀO “LƯỜI”",
-    thumb: "./img/recipes/dao-luoi.png",
+    thumb: "/img/recipes/dao-luoi.png",
     auth: "hà Phạm",
     day: "21",
     month: "November",
@@ -443,7 +443,7 @@ export const recipesList = [
   {
     id: 30,
     name: "CÁCH LÀM LASSI “SỮA CHUA LẮC KIỂU ẤN”",
-    thumb: "./img/recipes/lac-an.png",
+    thumb: "/img/recipes/lac-an.png",
     auth: "Hoa Lan",
     day: "21",
     month: "Febuary",
@@ -459,7 +459,7 @@ export const recipesList = [
   {
     id: 31,
     name: "CÀ PHÊ ĐÁ XAY CỐT DỪA THẠCH CARAMEL ",
-    thumb: "./img/recipes/ca-phe.png",
+    thumb: "/img/recipes/ca-phe.png",
     auth: "Tuấn Khanh",
     day: "19",
     month: "Febuary",
@@ -475,7 +475,7 @@ export const recipesList = [
   {
     id: 32,
     name: "CHÈ ĐẬU ",
-    thumb: "./img/recipes/che-dau.png",
+    thumb: "/img/recipes/che-dau.png",
     auth: "Trang Thu",
     day: "16",
     month: "October",
@@ -490,7 +490,7 @@ export const recipesList = [
   {
     id: 33,
     name: "CHÈ VẢI HẠT SEN ",
-    thumb: "./img/recipes/che-vai-hat-sen.png",
+    thumb: "/img/recipes/che-vai-hat-sen.png",
     auth: "Nghĩa Lưu",
     day: "20",
     month: "Jul",
@@ -505,7 +505,7 @@ export const recipesList = [
   {
     id: 33,
     name: " BÁNH CHUỐI NƯỚNG",
-    thumb: "./img/recipes/banh-chuoi-nuong.png",
+    thumb: "/img/recipes/banh-chuoi-nuong.png",
     auth: "Ninh Lan",
     day: "20",
     month: "Jul",
@@ -520,7 +520,7 @@ export const recipesList = [
   {
     id: 34,
     name: "BÁNH DA LỢN",
-    thumb: "./img/recipes/banh-da-lon.png",
+    thumb: "/img/recipes/banh-da-lon.png",
     auth: "Ninh Lan",
     day: "19",
     month: "May",
@@ -535,7 +535,7 @@ export const recipesList = [
   {
     id: 35,
     name: "SƯƠNG SÁO NƯỚC CỐT DỪA",
-    thumb: "./img/recipes/suong-sao-cot-dua.png",
+    thumb: "/img/recipes/suong-sao-cot-dua.png",
     auth: "Phan Anh",
     day: "30",
     month: "August",
@@ -550,7 +550,7 @@ export const recipesList = [
   {
     id: 36,
     name: "BÁNH CHUỐI HẤP NƯỚC CỐT DỪA",
-    thumb: "./img/recipes/banh-chuoi-hap.png",
+    thumb: "/img/recipes/banh-chuoi-hap.png",
     auth: "Phan Anh",
     day: "27",
     month: "January",
@@ -569,38 +569,38 @@ export const suggestList = [
     id: 1,
     category: "cake",
     name: "Bánh Ngọt",
-    thumb: "./img/home/suggest/banh-ngot.png",
+    thumb: "/img/home/suggest/banh-ngot.png",
   },
 
   {
     id: 2,
     category: "beverage",
     name: "Đồ uống",
-    thumb: "./img/home/suggest/drink.png",
+    thumb: "/img/home/suggest/drink.png",
   },
   {
     id: 3,
     category: "appetizer",
     name: "Khai vị",
-    thumb: "./img/home/suggest/khai-vi.png",
+    thumb: "/img/home/suggest/khai-vi.png",
   },
   {
     id: 4,
     category: "main",
     name: "Món chính",
-    thumb: "./img/home/suggest/mon-chinh.png",
+    thumb: "/img/home/suggest/mon-chinh.png",
   },
   {
     id: 5,
     category: "sub",
     name: "Món phụ",
-    thumb: "./img/home/suggest/mon-phu.png",
+    thumb: "/img/home/suggest/mon-phu.png",
   },
   {
     id: 6,
     category: "dessert",
     name: "Tráng miệng",
-    thumb: "./img/home/suggest/trang-mieng.png",
+    thumb: "/img/home/suggest/trang-mieng.png",
   },
 ];
 
@@ -669,7 +669,7 @@ export const blogList = [
   {
     id: 1,
     name: "Vét tủ lạnh HÔ BIẾN BÁNH CHƯNG Ế THÀNH KIMBAP CHIÊN GIÒN NGON TUYỆT",
-    thumb: "./img/blog/banh_chung.png",
+    thumb: "/img/blog/banh_chung.png",
     decr: "[Tạm biệt Tết] x Vét tủ lạnh HÔ BIẾN BÁNH CHƯNG Ế THÀNH KIMBAP CHIÊN GIÒN NGON TUYỆT Valentine xong rồi, gấp poster lại chưa các bạn ơi? Người ế thì mình chịu. Còn bánh chưng ế thì ship ngay…",
     auth: "February 26, 2019",
     date: "Tâm Phạm",
@@ -677,7 +677,7 @@ export const blogList = [
   {
     id: 2,
     name: "CƠN BÃO “HÀN QUỐC – HÀNH TRÌNH MỸ VỊ” CÀN QUÉT CÁC BỮA TRƯA TẠI MỘT CÔNG SỞ NỌ TẠI HÀ NỘI",
-    thumb: "./img/blog/han_quoc.png",
+    thumb: "/img/blog/han_quoc.png",
     decr: "CƠN BÃO “HÀN QUỐC – HÀNH TRÌNH MỸ VỊ” CÀN QUÉT CÁC BỮA TRƯA TẠI MỘT CÔNG SỞ NỌ TẠI HÀ NỘI Vâng thưa các bạn, kể từ ngày 10/10/2021 tới nay, một cơn bão lạ mang tên “Hàn Quốc…",
     auth: "March 15, 2022",
     date: "Hương Lan",
@@ -685,7 +685,7 @@ export const blogList = [
   {
     id: 3,
     name: "CÁCH LÀM MIẾN CUỘN GIMMARI – MÓN ĂN VẶT KHÔNG DỪNG ĐƯỢC MIỆNG KIỂU HÀN QUỐC",
-    thumb: "./img/blog/mien-cuon.png",
+    thumb: "/img/blog/mien-cuon.png",
     decr: "CÁCH LÀM MIẾN CUỘN GIMMARI – MÓN ĂN VẶT KHÔNG DỪNG ĐƯỢC MIỆNG KIỂU HÀN QUỐC Có một bí ẩn cần YBer giải đáp giúp mình… Rằng Thử thách “Hàn Quốc: Hành Trình Mỹ Vị” đã đóng cổng nhận bài…",
     auth: "March 6, 2022",
     date: "Hoa Nguyễn",
@@ -693,7 +693,7 @@ export const blogList = [
   {
     id: 4,
     name: "CÁCH LÀM JAPCHAE – KHÁM PHÁ MÓN CUNG ĐÌNH HÀN QUỐC",
-    thumb: "./img/blog/japchae.png",
+    thumb: "/img/blog/japchae.png",
     decr: "CÁCH LÀM JAPCHAE – KHÁM PHÁ MÓN CUNG ĐÌNH HÀN QUỐC Japchae, được biết đến ở Việt Nam dưới cái tên miến xào rau củ, là một trong những món ăn truyền thống của Hàn Quốc nổi danh trên bản…",
     auth: "February 7, 2022",
     date: "Diệp Anh",
@@ -701,7 +701,7 @@ export const blogList = [
   {
     id: 5,
     name: "GIẢI MÃ DALGONA HOT TREND YÊU BẾP “KHUẤY ĐẢO” MẠNG XÃ HỘI",
-    thumb: "./img/blog/dalgona.png",
+    thumb: "/img/blog/dalgona.png",
     decr: "GIẢI MÃ DALGONA HOT TREND YÊU BẾP “KHUẤY ĐẢO” MẠNG XÃ HỘI Xin chào các bạn, lần tổng kết hot trend này, spotlight của chúng ta sẽ dành trọn cho gương mặt vàng trong làng “khuấy đảo” mang tên Cà…",
     auth: "November 3, 2022",
     date: "Ngô Huệ",
@@ -709,7 +709,7 @@ export const blogList = [
   {
     id: 6,
     name: "CÁCH LÀM NOKDU BINDAETTEOK – BÁNH KẾP ĐẬU XANH KIỂU HÀN",
-    thumb: "./img/blog/dau.png",
+    thumb: "/img/blog/dau.png",
     decr: "Nhắc đến Hàn Quốc, người ta không khỏi nghĩ ngay đến kimchi – món ăn có thể coi là một đại diện tiêu biểu cho quốc gia này trên bản đồ ẩm thực thế giới. Theo ghi nhận của Bảo Tàng Kim Chi (Museum Kimchikan) tại Seoul, Hàn Quốc thì có tới 187 loại kimchi từ xưa đến nay. Bên cạnh kimchi cải thảo đã nổi tiếng khắp thế giới, Hàn Quốc còn có một số loại kimchi phổ biến làm từ củ cải, lá hẹ, bắp cải, dưa chuột v.v. Trong series “Muối cả thế giới” của Esheep Kitchen, chúng mình cũng đã ghé thăm Hàn Quốc và Nhật Bản để học lỏm cách làm dưa chuột muối đấy! Thử trải nghiệm làm 1/187 loại kimchi với công thức này nhé",
     auth: "September 7, 2021",
     date: "Lan Anh",
@@ -717,7 +717,7 @@ export const blogList = [
   {
     id: 7,
     name: "My little garden – Where is your soul’s shelter?",
-    thumb: "./img/blog/little-garden.png",
+    thumb: "/img/blog/little-garden.png",
     decr: "My little garden 🌿 Where is your soul’s shelter?Đôi khi ai cũng cần những góc nhỏ tĩnh lặng cho riêng mình.Góc nhỏ của bạn là nơi nào?",
     auth: "May 25, 2022",
     date: "Quốc Anh",
@@ -725,7 +725,7 @@ export const blogList = [
   {
     id: 8,
     name: "Vẻ đẹp của rau củ",
-    thumb: "./img/blog/rau-cu.png",
+    thumb: "/img/blog/rau-cu.png",
     decr: "Vẻ đẹp của rau củ Bất cứ ở đâu, bất cứ công việc nào, nếu bạn toàn tâm toàn ý và dành niềm hứng thú say mê với nó, bạn cũng có thể tìm được vẻ đẹp của nó đấy!…",
     auth: "May 14, 2021",
     date: "Quốc Anh",
@@ -733,7 +733,7 @@ export const blogList = [
   {
     id: 9,
     name: "[Cuối tuần vào bếp cùng con] BÁNH NGÔ MÙA HÈ – SIÊU NGON SIÊU DỄ",
-    thumb: "./img/blog/banh-ngo.png",
+    thumb: "/img/blog/banh-ngo.png",
     decr: "Mình học món này của bạn Hoàng Minh đã chia sẻ với Yêu Bếp.Bạn ấy làm xong mang tặng studio bọn mình. Nó siêu ngon đến mức mình ngay lập tức ghim lại cách làm để cuối tuần cùng bọn Mĩm Cừu làm.Và đây – Một mẻ bánh ngô tuyệt ngon cho bữa xế nhiều nay của nhà mình – kèm trà sữa Thái đỏ trân châu đường đen bạn Mĩm tự làm đãi cả nhà.",
     auth: "May 14, 2021",
     date: "Quốc Anh",
@@ -741,7 +741,7 @@ export const blogList = [
   {
     id: 10,
     name: "Màu của khu vườn, màu của những ngày đầu hạ…",
-    thumb: "./img/blog/vuon.png",
+    thumb: "/img/blog/vuon.png",
     decr: "Màu của khu vườn, màu của những ngày đầu hạ. XANH MƯỚT Điều mà bọn mình yêu thích nhất ở Studio là gì? Là có một khu vườn trên mây. Một khoảnh vườn nhỏ xinh xắn và một ban công…",
     auth: "November 3, 2022",
     date: "Ngô Huệ",
@@ -749,7 +749,7 @@ export const blogList = [
   {
     id: 11,
     name: "[Khu vườn mùa hạ]",
-    thumb: "./img/blog/vuon-ha.png",
+    thumb: "/img/blog/vuon-ha.png",
     decr: "[Khu vườn mùa hạ] Hôm nay, khu vườn trên mây của chúng mình có “khách quý” đến thăm. Một người bạn thân quen từ Yêu Bếp. Theo mình nhớ thì ấy đã follow mình tới 7 năm nay, vậy mà…",
     auth: "March 6, 2022",
     date: "Hoa Nguyễn",
@@ -757,7 +757,7 @@ export const blogList = [
   {
     id: 12,
     name: "VU VƠ",
-    thumb: "./img/blog/vu-vo.png",
+    thumb: "/img/blog/vu-vo.png",
     decr: "Chẳng biết giờ ương dở này up một chiếc hình vu vơ lên thì có ai xem không!!! Vu vơ mà ngon không tưởng!!!! Huhu!!! Lọ mọ thử làm bò hầm vang đỏ kiểu Pháp (Boeuf Bourguignon) kiểu của cô…",
     auth: "February 7, 2022",
     date: "Diệp Anh",
@@ -765,7 +765,7 @@ export const blogList = [
   {
     id: 13,
     name: "TẾT ĐOAN NGỌ THÁNG NĂM",
-    thumb: "./img/blog/doan-ngo.png",
+    thumb: "/img/blog/doan-ngo.png",
     decr: "Những sớm tháng 5 mát mẻ, bọn trẻ con sẽ thật háo hức chờ đến ngày “giết sâu bọ” để thi nhau mở cái liếp giang trên liễn gốm ủ rượu nếp, để ngửi mùi hơi rượu sộc thẳng lên…",
     auth: "March 15, 2022",
     date: "Hương Lan",
@@ -773,7 +773,7 @@ export const blogList = [
   {
     id: 14,
     name: "MÙA VỤ CÀ CHUA – CÁCH LÀM SUN DRIED TOMATO",
-    thumb: "./img/blog/ca-chua.png",
+    thumb: "/img/blog/ca-chua.png",
     decr: "Cuối tuần vừa rồi, nhân ngày nắng ráo, mình đã dỡ giàn cà chua và thu hoạch đợt cà chua cuối. Nhìn những trái cà chua chín mọn và thơm mát này, không thể buồn được. Không thể buồn được. Cảm giác niềm vui cứ len lỏi mãi trên tay, khi chạm vào sự mọng nước, sự nhẵn mịn bóng bẩy thơm tho mùi đất này. Niềm vui sáng rỡ lên cả khi nín thở xếp từng trái, từng trái vào chiếc giỏ con. Xếp nhẹ nhàng, vui nhẹ nhàng.",
     auth: "February 26, 2019",
     date: "Tâm Phạm",
@@ -781,7 +781,7 @@ export const blogList = [
   {
     id: 15,
     name: "NHỮNG NIỀM VUI NHÈ NHẸ",
-    thumb: "./img/blog/happy.png",
+    thumb: "/img/blog/happy.png",
     decr: "Những chiếc bánh nướng kiểu Anh và buổi chiều quá đỗi bình yên. Buổi học làm bánh chiều t7 16.3.2022. Một buổi chiều khiến tôi sẽ nhớ mãi. Gió mát lịm ngoài cửa sổ Studio và tất thảy chúng tôi…",
     auth: "February 7, 2022",
     date: "Diệp Anh",
@@ -789,7 +789,7 @@ export const blogList = [
   {
     id: 16,
     name: "MÙA THU ĐẦU TIÊN Ở STUDIO",
-    thumb: "./img/blog/studio.png",
+    thumb: "/img/blog/studio.png",
     decr: "Mùa thu đầu tiên ở Studio🍁 Là mùa thu có nắng vàng, có góc ban công thật rộng để treo những quả hồng vàng ruộm, có những mẹt lá vối hong nắng để mời khách ghé thăm và có một…",
     auth: "March 6, 2022",
     date: "Lu Nguyễn",
@@ -797,7 +797,7 @@ export const blogList = [
   {
     id: 17,
     name: "KHU VƯỜN RỰC RỠ ",
-    thumb: "./img/blog/ruc-ro.png",
+    thumb: "/img/blog/ruc-ro.png",
     decr: "Trong lúc chị đại Sheep đang vi vu trời Tây Ban Nha, thưởng thức toàn món ngon của lạ 😡😡😡 thì mấy đứa chúng mình lại tranh thủ một ngày Hà Nội nắng đẹp để “quy hoạch” lại khu vườn yêu…",
     auth: "September 6, 2022",
     date: "Phan Anh",
@@ -805,7 +805,7 @@ export const blogList = [
   {
     id: 18,
     name: "",
-    thumb: "./img/blog/mien-cuon.png",
+    thumb: "/img/blog/mien-cuon.png",
     decr: "",
     auth: "December 6, 2022",
     date: "Đặng Tuấn",
@@ -813,7 +813,7 @@ export const blogList = [
   {
     id: 19,
     name: "(GÓC REVIEW) PIZZA CHẢ CÁ",
-    thumb: "./img/blog/pizza.png",
+    thumb: "/img/blog/pizza.png",
     decr: "Ok, hôm qua mọi người đã được một phen náo loạn vì PIZZA MẮM TÔM mình up lên group Hội Ăn Gì rồi.Nên hôm nay, mình quyết định đi qua tiệm Pizza 4P’s ở Phan Kế Bính, HN – nơi được cho là có món PIZZA MẮM TÔM ấy ở HN ăn thử xem thế nào.",
     auth: "March 6, 2022",
     date: "Thu Trang",
@@ -821,7 +821,7 @@ export const blogList = [
   {
     id: 20,
     name: "(GÓC REVIEW) 🌿BÚN ỐC NGON KHÔNG MÌ CHÍNH🌿",
-    thumb: "./img/blog/bun-oc.png",
+    thumb: "/img/blog/bun-oc.png",
     decr: "Suýt nữa thì tuyệt vọng. Chẳng còn tìm được hàng bún ốc nào vừa miệng mình mà lại không/hoặc ít mì chính.Tự dưng hôm nay thằng em lại vui chân rủ đi ăn bún ốc.Một hàng nghe danh nổi đã lâu nhưng thế nào lại không đến tai mình. =))",
     auth: "March 6, 2022",
     date: "Oanh Han",
@@ -829,7 +829,7 @@ export const blogList = [
   {
     id: 21,
     name: "TỪ A-Z CÁCH LÀM KIM CHI TRUYỀN THỐNG HÀN QUỐC",
-    thumb: "./img/blog/kim-chi.png",
+    thumb: "/img/blog/kim-chi.png",
     decr: "Không chỉ đơn thuần là một món ăn truyền thống, kimchi còn là gắn liền với bề dày lịch sử, văn hóa và con người của xứ sở này. Và nếu bạn chưa biết thì kimchi và kimjang – văn hóa muối kimchi của Hàn Quốc đã được UNESCO chính thức công nhận vào danh mục di sản văn hóa phi vật thể đại diện của nhân loại đó!",
     auth: "March 21, 2022",
     date: "Diep Phạm",
