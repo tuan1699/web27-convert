@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Blog.module.css";
 import BlogItem from "../../components/BlogItem/BlogItem";
 import SideBar from "../../components/sidebar/SideBar";
@@ -6,6 +6,32 @@ import { blogList } from "../../db";
 import { Link } from "react-router-dom";
 
 const Blog = () => {
+  const [currentPage, setCurrentPage] = useState(0);
+
+  const total = blogList.length;
+  const pageSize = 7;
+  const totalPage = Math.ceil(total / pageSize);
+
+  const blogByPage = blogList.slice(
+    currentPage * pageSize,
+    (currentPage + 1) * pageSize
+  );
+
+  console.log(blogByPage);
+  console.log(currentPage);
+
+  const prevPage = () => {
+    if (currentPage === 0) {
+      setCurrentPage(totalPage - 1);
+    } else setCurrentPage(currentPage - 1);
+  };
+
+  const nextPage = () => {
+    if (currentPage === totalPage - 1) {
+      setCurrentPage(0);
+    } else setCurrentPage(currentPage + 1);
+  };
+
   return (
     <div className={styles["wrapper"]}>
       <div className={styles["breadcumb"]}>
@@ -27,7 +53,7 @@ const Blog = () => {
           <div className="row">
             <div className="col-12 col-lg-9">
               <div className={styles["blog-list"]}>
-                {blogList.map((blog) => {
+                {blogByPage.map((blog) => {
                   return <BlogItem key={blog.id} blog={blog} />;
                 })}
               </div>
@@ -36,22 +62,24 @@ const Blog = () => {
               >
                 <span
                   className={`${styles["controller-item"]} ${styles["prev-page"]}`}
+                  onClick={prevPage}
                 >
-                  <a href className={styles["page-link"]}>
+                  <div className={styles["page-link"]}>
                     <i className="bi bi-chevron-left" />{" "}
-                  </a>
+                  </div>
                 </span>
                 <span
                   className={`${styles["controller-item"]} ${styles["current-page"]}`}
                 >
-                  1
+                  {currentPage + 1}
                 </span>
                 <span
                   className={`${styles["controller-item"]} ${styles["next-page"]}`}
+                  onClick={nextPage}
                 >
-                  <a href className={styles["page-link"]}>
+                  <div className={styles["page-link"]}>
                     <i className="bi bi-chevron-right" />{" "}
-                  </a>
+                  </div>
                 </span>
               </div>
             </div>
