@@ -119,6 +119,10 @@
   height: 1667px;
   overflow-y: scroll;
 }
+
+.side-bar-content::-webkit-scrollbar {
+  display: none;
+}
 /*  */
 
 .border-item {

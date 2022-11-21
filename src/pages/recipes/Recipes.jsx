@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import styles from "./Recipes.module.css";
 import { recipesList } from "../../db";
 import SideBar from "../../components/sidebar/SideBar";
@@ -7,6 +8,29 @@ import Filter from "./Filter";
 import RecipesItem from "../../components/RecipesItem/RecipesItem";
 
 const Recipes = () => {
+  const [currentPage, setCurrentPage] = useState(0);
+
+  const total = recipesList.length;
+  const pageSize = 10;
+  const totalPage = Math.ceil(total / pageSize);
+
+  const recipesByPage = recipesList.slice(
+    currentPage * pageSize,
+    (currentPage + 1) * pageSize
+  );
+
+  const prevPage = () => {
+    if (currentPage === 0) {
+      setCurrentPage(totalPage - 1);
+    } else setCurrentPage(currentPage - 1);
+  };
+
+  const nextPage = () => {
+    if (currentPage === totalPage - 1) {
+      setCurrentPage(0);
+    } else setCurrentPage(currentPage + 1);
+  };
+
   return (
     <div className={styles["wrapper"]}>
       <div className={styles["breadcumb"]}>
@@ -31,7 +55,7 @@ const Recipes = () => {
             </div>
             <div className="col-12 col-lg-9">
               <div className={`${styles["recipes-list"]} row`}>
-                {recipesList.map((recipes) => {
+                {recipesByPage.map((recipes) => {
                   return <RecipesItem key={recipes.id} recipes={recipes} />;
                 })}
               </div>
@@ -40,22 +64,26 @@ const Recipes = () => {
               >
                 <span
                   className={`${styles["controller-item"]} ${styles["prev-page"]}`}
+                  onClick={prevPage}
                 >
                   <i className="bi bi-chevron-left" />
                 </span>
                 <span
                   className={`${styles["controller-item"]} ${styles["current-page"]}`}
                 >
-                  1
+                  {currentPage + 1}
                 </span>
                 <span
                   className={`${styles["controller-item"]} ${styles["next-page"]}`}
+                  onClick={nextPage}
                 >
                   <i className="bi bi-chevron-right" />
                 </span>
               </div>
             </div>
-            <div className="d-none d-lg-block col-lg-3">
+            <div
+              className={`d-none d-lg-block col-lg-3 ${styles["side-bar-content"]}`}
+            >
               <SideBar />
             </div>
           </div>
