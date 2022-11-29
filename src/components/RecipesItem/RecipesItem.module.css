@@ -54,6 +54,10 @@
   font-size: 20px;
 }
 
+.add-recipesBox:hover {
+  cursor: pointer;
+}
+
 .underline-hover-effect {
   display: inline-block;
   padding-bottom: 4px;

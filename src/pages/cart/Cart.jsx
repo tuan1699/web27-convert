@@ -1,8 +1,42 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Cart.module.css";
+import { courseInCart } from "../../store/features/cart/cart.slice";
+import { useDispatch, useSelector } from "react-redux";
+import { deleteCourse } from "../../store/features/cart/cart.slice";
 
 const Cart = () => {
+  const dispatch = useDispatch();
+  const { cartItems, totalPrice } = useSelector(courseInCart);
+
+  console.log(totalPrice);
+
+  const hanldeDeleteCourse = (id) => {
+    if (confirm("Bạn có muốn xóa khóa học này khỏi giỏ hàng không?")) {
+      dispatch(deleteCourse(id));
+    }
+  };
+
+  if (cartItems.length === 0) {
+    return (
+      <div className={styles["wrapper"]}>
+        <div className={styles["breadcumb"]}>
+          <Link to="/">TRANG CHỦ</Link> / <Link to="/cart">GIỎ HÀNG</Link>
+        </div>
+        <div className={styles["body"]}>
+          <div className={styles["cart-container"]}>
+            <div className={styles["cart-list"]}>
+              <div className={styles["empty-cart"]}>
+                <img src="./img/home/cart/empty.png" alt="" />
+              </div>
+              <template id="item-in-cart" />
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className={styles["wrapper"]}>
       <div className={styles["breadcumb"]}>
@@ -11,10 +45,29 @@ const Cart = () => {
       <div className={styles["body"]}>
         <div className={styles["cart-container"]}>
           <div className={styles["cart-list"]}>
-            <div className={styles["empty-cart"]}>
-              <img src="./img/home/cart/empty.png" alt="" />
-            </div>
-            <template id="item-in-cart" />
+            {cartItems.map((item) => (
+              <div
+                className={`${styles["course-item"]} d-flex justify-content-between align-items-center`}
+              >
+                <div className={styles["course-info"]}>
+                  <div className="row">
+                    <div className="col-6">
+                      <img src={item.thumb} alt="" />
+                    </div>
+                    <div className="col-6">
+                      <div className={styles["cart-name"]}>{item.name}</div>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles["course-price"]}>{item.price}</div>
+                <div
+                  className={styles["delete-course"]}
+                  onClick={() => hanldeDeleteCourse(item.id)}
+                >
+                  <i className="bi bi-x-lg" />
+                </div>
+              </div>
+            ))}
           </div>
           <div className={styles["check-out-field"]}>
             <form action id={styles["check-out-form"]}>
@@ -25,23 +78,13 @@ const Cart = () => {
                     <div className="row">
                       <div className="col-6">
                         <div className={styles["info-user-field"]}>
-                          <input
-                            type="text"
-                            name
-                            id="first-name"
-                            placeholder="Họ"
-                          />
+                          <input type="text" id="first-name" placeholder="Họ" />
                           <span className={styles["message-error"]} />
                         </div>
                       </div>
                       <div className="col-6">
                         <div className={styles["info-user-field"]}>
-                          <input
-                            type="text"
-                            name
-                            id="last-name"
-                            placeholder="Tên"
-                          />
+                          <input type="text" id="last-name" placeholder="Tên" />
                           <span className={styles["message-error"]} />
                         </div>
                       </div>
@@ -49,7 +92,6 @@ const Cart = () => {
                     <div className={styles["info-user-field"]}>
                       <input
                         type="tel"
-                        name
                         id="number-phone"
                         placeholder="Số điện thoại"
                       />
@@ -58,24 +100,16 @@ const Cart = () => {
                     <div className={styles["info-user-field"]}>
                       <input
                         type="email"
-                        name
                         id="email-checkout"
                         placeholder="Email"
                       />
                       <span className={styles["message-error"]} />
                     </div>
                     <div className={styles["info-user-field"]}>
-                      <input
-                        type="text"
-                        name
-                        id="address"
-                        placeholder="Địa chỉ"
-                      />
+                      <input type="text" id="address" placeholder="Địa chỉ" />
                       <span className={styles["message-error"]} />
                     </div>
                     <textarea
-                      name
-                      id
                       cols={30}
                       rows={10}
                       placeholder="Thêm thông tin bổ sung"
@@ -92,12 +126,34 @@ const Cart = () => {
                       <p>Khóa học</p>
                       <p>Thành tiền</p>
                     </div>
-                    <div className={styles["list-check-out"]} />
+                    <div className={styles["list-check-out"]}>
+                      {cartItems.map((item) => (
+                        <div
+                          className={`${styles["item-checkout"]} d-flex justify-content-between align-items-center`}
+                        >
+                          <div className={styles["course-info"]}>
+                            <div className="row">
+                              <div className="col-6">
+                                <img src={item.thumb} alt="" />
+                              </div>
+                              <div className="col-6">
+                                <div className={styles["cart-name"]}>
+                                  {item.name}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className={styles["course-price"]}>
+                            {item.price} Đ
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                     <div
                       className={`${styles["summary"]} d-flex justify-content-between`}
                     >
                       <p>TỔNG</p>
-                      <p className={styles["summary-price"]} />
+                      <p className={styles["summary-price"]}>{totalPrice} Đ</p>
                     </div>
                     <div className={styles["pay-method"]}>
                       <p>HÌNH THỨC THANH TOÁN</p>

@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -22,6 +23,7 @@ import User from "./pages/user/User";
 import RecipesDetail from "./pages/RecipesDetail/RecipesDetail";
 import BlogDetail from "./pages/BlogDetail/BlogDetail";
 import CourseDetail from "./pages/CourseDetail/CourseDetail";
+import store from "./store/store";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -93,6 +95,8 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>
 );
